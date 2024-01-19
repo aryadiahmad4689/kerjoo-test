@@ -43,7 +43,7 @@ class AnnualLeaveRepository implements AnnualLeaveRepositoryInterface
         return AnnualLeave::with('leaveDates')->get();
     }
 
-    // mengambil cuti pegawai tertentu
+    // mengambil hanya satu daftar cuti berdasarkan cuti id
     public function getById($id)
     {
         return AnnualLeave::with('leaveDates')->find($id);
