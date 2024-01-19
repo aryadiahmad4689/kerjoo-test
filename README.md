@@ -1,4 +1,4 @@
-# Aplikasi Presensi Kejoo
+# Aplikasi Presensi Kerjoo
 
 ## Stack
 - php 8.23
@@ -17,5 +17,8 @@
  - php artisan migrate
  - php artisan db:seed --class=UsersTableSeeder
  - php artisan serve
+
+## Testing
+ - php artisan test
 
 # Terimah Kasih
